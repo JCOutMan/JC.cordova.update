@@ -15,16 +15,16 @@
         <source-file src="src/ios/JCUpdate.m"/>
 
         <!-->MKNetworkKit<-->
-        <header-file src="src/ios/MKNetworkKit/MKNetworkEngine.h"/>
-        <header-file src="src/ios/MKNetworkKit/MKNetworkKit.h"/>
-        <header-file src="src/ios/MKNetworkKit/MKNetworkOperation.h"/>
-        <header-file src="src/ios/MKNetworkKit/Categories/NSAlert+MKNetworkKitAdditions.h"/>
-        <header-file src="src/ios/MKNetworkKit/Categories/NSData+Base64.h"/>
-        <header-file src="src/ios/MKNetworkKit/Categories/NSDate+RFC1123.h"/>
-        <header-file src="src/ios/MKNetworkKit/Categories/NSDictionary+RequestEncoding.h"/>
-        <header-file src="src/ios/MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.h"/>
-        <header-file src="src/ios/MKNetworkKit/Categories/UIAlertView+MKNetworkKitAdditions.h"/>
-        <header-file src="src/ios/MKNetworkKit/Reachability/Reachability.h"/>
+        <!--<header-file src="src/ios/MKNetworkKit/MKNetworkEngine.h"/>-->
+        <!--<header-file src="src/ios/MKNetworkKit/MKNetworkKit.h"/>-->
+        <!--<header-file src="src/ios/MKNetworkKit/MKNetworkOperation.h"/>-->
+        <!--<header-file src="src/ios/MKNetworkKit/Categories/NSAlert+MKNetworkKitAdditions.h"/>-->
+        <!--<header-file src="src/ios/MKNetworkKit/Categories/NSData+Base64.h"/>-->
+        <!--<header-file src="src/ios/MKNetworkKit/Categories/NSDate+RFC1123.h"/>-->
+        <!--<header-file src="src/ios/MKNetworkKit/Categories/NSDictionary+RequestEncoding.h"/>-->
+        <!--<header-file src="src/ios/MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.h"/>-->
+        <!--<header-file src="src/ios/MKNetworkKit/Categories/UIAlertView+MKNetworkKitAdditions.h"/>-->
+        <!--<header-file src="src/ios/MKNetworkKit/Reachability/Reachability.h"/>-->
         
         <source-file src="src/ios/MKNetworkKit/MKNetworkEngine.m"/>
         <source-file src="src/ios/MKNetworkKit/MKNetworkOperation.m"/>
@@ -38,13 +38,13 @@
 
 
         <!-->SSZipArchive<-->
-        <header-file src="src/ios/SSZipArchive/Common.h"/>
-        <header-file src="src/ios/SSZipArchive/SSZipArchive.h"/>
-        <header-file src="src/ios/SSZipArchive/minizip/crypt.h"/>
-        <header-file src="src/ios/SSZipArchive/minizip/ioapi.h"/>
-        <header-file src="src/ios/SSZipArchive/minizip/mztools.h"/>
-        <header-file src="src/ios/SSZipArchive/minizip/unzip.h"/>
-        <header-file src="src/ios/SSZipArchive/minizip/zip.h"/>
+        <!--<header-file src="src/ios/SSZipArchive/Common.h"/>-->
+        <!--<header-file src="src/ios/SSZipArchive/SSZipArchive.h"/>-->
+        <!--<header-file src="src/ios/SSZipArchive/minizip/crypt.h"/>-->
+        <!--<header-file src="src/ios/SSZipArchive/minizip/ioapi.h"/>-->
+        <!--<header-file src="src/ios/SSZipArchive/minizip/mztools.h"/>-->
+        <!--<header-file src="src/ios/SSZipArchive/minizip/unzip.h"/>-->
+        <!--<header-file src="src/ios/SSZipArchive/minizip/zip.h"/>-->
 
         <source-file src="src/ios/SSZipArchive/SSZipArchive.m"/>
         <source-file src="src/ios/SSZipArchive/minizip/ioapi.c"/>
