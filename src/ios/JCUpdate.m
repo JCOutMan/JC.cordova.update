@@ -1,8 +1,8 @@
 /********* update.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
-#import "MKNetworkKit/MKNetworkKit.h"
-#import "SSZipArchive/SSZipArchive.h"
+#import "MKNetworkKit.h"
+#import "SSZipArchive.h"
 #import "MainViewController.h"
 
 
