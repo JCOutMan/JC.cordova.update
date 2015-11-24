@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="JCUpdate" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>JCUpdate</name>
+    <js-module name="JCUpdate" src="www/JCUpdate.js">
+        <clobbers target="cordova.plugins.JCUpdate"/>
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="JCUpdate">
+                <param name="ios-package" value="JCUpdate"/>
+            </feature>
+        </config-file>
+        <source-file src="src/ios/JCUpdate.m"/>
+        <source-file src="src/ios/JCUpdate.a" framework="true" />
+        <framework src="libz.dylib" />
+        <framework src="CFNetwork.framework"/>
+        <framework src="SystemConfiguration.framework" />
+        <framework src="Security.framework" />
+    </platform>
+</plugin>
