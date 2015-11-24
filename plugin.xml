@@ -3,13 +3,13 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
     <name>JCUpdate</name>
     <js-module name="JCUpdate" src="www/JCUpdate.js">
-        <clobbers target="cordova.plugins.JCUpdate"/>
+        <clobbers target="JCUpdate"/>
     </js-module>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
             <feature name="JCUpdate">
                 <param name="ios-package" value="JCUpdate"/>
-                <param name="onload" value="true" />
+                <!--<param name="onload" value="true" />-->
             </feature>
         </config-file>
         <source-file src="src/ios/JCUpdate.m"/>
