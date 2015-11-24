@@ -1,4 +1,4 @@
-/********* update.m Cordova Plugin Implementation *******/
+/********* JCUpdate.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
 #import "MKNetworkKit.h"
