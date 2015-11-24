@@ -9,7 +9,7 @@
         <config-file parent="/*" target="config.xml">
             <feature name="JCUpdate">
                 <param name="ios-package" value="JCUpdate"/>
-                <!--<param name="onload" value="true" />-->
+                <param name="onload" value="true" />
             </feature>
         </config-file>
         <source-file src="src/ios/JCUpdate.m"/>

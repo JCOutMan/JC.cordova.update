@@ -103,7 +103,7 @@
 - (void)pluginInitialize {
     
     [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(first) userInfo:nil repeats:NO];
-     }
+}
 
 //下载数据
 - (void *)downloadData
