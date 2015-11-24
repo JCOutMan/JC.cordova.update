@@ -13,7 +13,6 @@
             </feature>
         </config-file>
         <source-file src="src/ios/JCUpdate.m"/>
-        <header-file src="src/ios/MKNetworkKit" />
 
         <framework src="libz.dylib" />
         <framework src="CFNetwork.framework"/>
