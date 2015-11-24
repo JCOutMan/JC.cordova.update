@@ -6,7 +6,7 @@
 #import "MainViewController.h"
 
 
-@interface update : CDVPlugin {
+@interface JCUpdate : CDVPlugin {
     // Member variables go here.
 }
 
@@ -24,7 +24,7 @@
 - (void)update:(CDVInvokedUrlCommand *)command;
 @end
 
-@implementation update
+@implementation JCUpdate
 
 -(void)first
 {
