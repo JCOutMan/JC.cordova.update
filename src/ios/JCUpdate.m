@@ -2,7 +2,8 @@
 
 #import <Cordova/CDV.h>
 #import "SSZipArchive.h"
-#import "MKNetworkKit.h"
+#import "MKNetworkKit/MKNetworkKit.h"
+#import "SSZipArchive/SSZipArchive.h"
 #import "MainViewController.h"
 
 
