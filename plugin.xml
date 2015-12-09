@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="JCUpdate" version="1.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+<plugin id="JC.cordova.update" version="1.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
     <name>JCUpdate</name>
     <js-module name="JCUpdate" src="www/JCUpdate.js">
@@ -13,6 +13,8 @@
             </feature>
         </config-file>
         <source-file src="src/ios/JCUpdate.m"/>
+        <header-file src="src/ios/JCUpdateCore.h" />
+        <source-file src="src/ios/JCUpdateCore_free.a" framework="true" />
 
         <framework src="libz.dylib" />
         <framework src="CFNetwork.framework"/>
