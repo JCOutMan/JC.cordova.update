@@ -25,4 +25,3 @@ JCUpdate.incrementalUpdate(host, packPath, function(){
 #调试模式(调试web页面时需开启调试模式,否则页面内容不会改变) 
 JCUpdate.debugWeb();
 
-#加微信JCOutMan获取正式版插件
