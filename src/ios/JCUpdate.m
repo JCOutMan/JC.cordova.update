@@ -36,7 +36,7 @@
     
     updateCore = [JCUpdateCore getInstance];
     
-    [updateCore debugWeb];                  //执行调试模式
+    //[updateCore debugWeb];                  //执行调试模式
     
     [updateCore pluginInitializeAtWebView:curViewController.webView onCompletion:nil onError:^(NSString *error) {
         [self sendErrorResult:error];
