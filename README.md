@@ -6,7 +6,7 @@ cordova plugin add https://github.com/JCOutMan/JC.cordova.update
 
 #使用
 #host:  主机地址 如:www.baidu.com
-#packPath:  更新包地址  如:/download/www.zip   必需要zip包
+#packPath:  更新包地址  如:download/www.zip   必需要zip包
 
 #全部更新
 JCUpdate.allUpdate(host, packPath, function(){
